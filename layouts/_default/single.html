@@ -3,14 +3,8 @@
 <head>
     {{ partial "head.html" . }}
 </head>
-    <body id="page-top" class="index">
-        <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <a class="navbar-brand page-scroll" href="/">{{ with .Site.Params.navigation.brand }}{{ . }}{{ end }}</a>
-                </div>
-            </div>
-        </nav>
+    <body id="page-top" class="index page">
+        {{ partial "nav.html" . }}
         <section id="single-page-content">
             <div class="container">
                 <div class="row">
