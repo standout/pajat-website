@@ -111,40 +111,64 @@ googleAnalytics = ""
 
 	# Team section
 	[params.team]
-		title = "Our amazing team"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		title = "The team"
+		subtitle = "We are the people behind Pajat."
+		description = "We are a strong team of talented people who all have a passion for creating innovative solutions to everyday problems."
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
-			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
+			name = "David Elbe"
+			email = "david@standout.se"
+			position = "Project Manager"
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				["fa-github", "http://github.com/davidelbe"],
+				["fa-twitter", "http://twitter.com/davidelbe"]
 			]
 
 		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
+			name = "Kevin Sjöberg"
+			email = "kevin@standout.se"
+			position = "Developer"
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				["fa-github", "http://github.com/kevinsjoberg"],
+				["fa-twitter", "http://twitter.com/kevinsjoberg"]
 			]
 
 		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
+			name = "Alexander Ross"
+			email = "ross@standout.se"
+			position = "Developer"
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				["fa-github", "http://github.com/alex-ross"],
+				["fa-twitter", "http://twitter.com/arosspie"]
+			]
+
+		[[params.team.members]]
+			name = "Metin Uçar"
+			email = "metin.ucar@standout.se"
+			position = "Design"
+			social = [
+				["fa-github", "http://github.com/ucarmetin"],
+				["fa-twitter", "http://twitter.com/merovingian"]
+			]
+
+		[[params.team.members]]
+			name = "Hüseyin Öztürk"
+			email = "husse@standout.se"
+			position = "Developer"
+			social = [
+				["fa-github", "http://github.com/hsyn"],
+				["fa-twitter", "http://twitter.com/5weden"]
+			]
+
+		[[params.team.members]]
+			name = "Albert Arvidsson"
+			email = "albert.arvidsson@standout.se"
+			position = "Developer"
+			social = [
+				["fa-github", "http://github.com/scmx"],
+				["fa-twitter", "http://twitter.com/albertarv"]
 			]
 
 	# Client section
