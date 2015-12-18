@@ -37,7 +37,7 @@ googleAnalytics = ""
 	# Navigation
 	[params.navigation]
 		brand = "Pajat"
-		services = "Services"
+		services = "How it works"
 		about = "About"
 		team = "Team"
 		contact = "Contact"
@@ -54,24 +54,24 @@ googleAnalytics = ""
 
 	# Services section
 	[params.services]
-		title = "Services"
+		title = "How it works"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 
         [[params.services.row]]
 
             [[params.services.row.list]]
-                icon = "fa-shopping-cart"
-                title = "E-Commerce"
+                icon = "fa-camera"
+                title = "Take a picture"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
             [[params.services.row.list]]
-                icon = "fa-laptop"
-                title = "Responsive Design"
+                icon = "fa-comment-o"
+                title = "Report"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
             [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
+                icon = "fa-thumbs-o-up"
+                title = "Verify"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
 
