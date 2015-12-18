@@ -49,7 +49,7 @@ googleAnalytics = ""
 		# the 'static/img' folder.
 		title = "Welcome!"
 		subtitle = "Contribute to your community"
-		buttonText = "Tell me more"
+		buttonText = "How it works"
 
 
 	# Services section
