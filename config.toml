@@ -38,7 +38,6 @@ googleAnalytics = ""
 	[params.navigation]
 		brand = "Pajat"
 		services = "Services"
-		portfolio = "Portfolio"
 		about = "About"
 		team = "Team"
 		contact = "Contact"
@@ -75,23 +74,8 @@ googleAnalytics = ""
                 title = "Web"
                 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
-	# Portfolio section
-	[params.portfolio]
-		# All projects defined in their own files. You can find example projects
-		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-		# at the root of this Hugo site.
-		# For more informtion take a look at the README.
-		title = "Portfolio"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
 
-		[params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttonText = "Close project"
-
-
-    # About section
+        # About section
 	[params.about]
 		title = "About"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
