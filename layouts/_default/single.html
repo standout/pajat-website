@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+    <body id="page-top" class="index">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <a class="navbar-brand page-scroll" href="/">{{ with .Site.Params.navigation.brand }}{{ . }}{{ end }}</a>
+                </div>
+            </div>
+        </nav>
+        <section id="single-page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="text-center">{{ .Title }}</h1>
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{ partial "footer.html" . }}
+        {{ partial "js.html" . }}
+    </body>
+</html>

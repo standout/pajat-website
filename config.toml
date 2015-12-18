@@ -220,21 +220,17 @@ googleAnalytics = ""
 		copyright = "Published under the Apache License 2.0."
 
 		[[params.footer.social]]
+			icon = "fa-github"
+			link = "http://github.com/standout/pajat-website"
+
+		[[params.footer.social]]
 			icon = "fa-twitter"
-			link = "#"
-
-		[[params.footer.social]]
-			icon = "fa-facebook"
-			link = "#"
-
-		[[params.footer.social]]
-			icon = "fa-linkedin"
-			link = "#"
+			link = "http://twitter.com/pajatapp"
 
 		[[params.footer.quicklinks]]
-			text = "Privacy Policy"
-			link = "#"
+			text = "FAQ"
+			link = "/faq"
 
 		[[params.footer.quicklinks]]
-			text = "Terms of Use"
-			link = "#"
+			text = "Terms of Service"
+			link = "/tos"
